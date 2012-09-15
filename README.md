@@ -1,3 +1,9 @@
+
+Note
+-----
+Seemed to have been abandoned by original author, I will try to maintain this in working condition
+
+
 A heroku plugin to talk to your redis instances on heroku.
 
 Installation
@@ -11,7 +17,7 @@ Requirements:
 
 To install:
 
-* `heroku plugins:install https://github.com/rapportive-oss/heroku-redis-cli.git`
+* `heroku plugins:install https://github.com/dyashkir/heroku-redis-cli.git`
 
 Usage
 -----
