@@ -5,7 +5,7 @@ class Heroku::Command::Redis < Heroku::Command::Base
     # Must remember to extract these so they don't get passed to redis-cli
     db = extract_option("--db") || 'REDISTOGO_URL'
 
-    redis_url =  pi.get_config_vars(app).body[db]
+    redis_url =  api.get_config_vars(app).body[db]
     return puts "No such redis (#{db}), try setting --db REDIS_URL." unless redis_url
     uri = URI.parse(redis_url)
 
