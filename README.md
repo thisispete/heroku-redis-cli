@@ -1,6 +1,6 @@
 Note
 -----
-Seemed to have been abandoned by original author, I will try to maintain this in working condition
+Not maintaining this, just forked to change some default params.
 
 
 A heroku plugin to talk to your redis instances on heroku.
