@@ -30,7 +30,7 @@ Usage
 Arguments
 ---------
 
-Each command can take the heroku `--app APPNAME` parameter, and a `--db REDIS_URL` parameter (which defaults to `REDISTOGO_URL`) for selecting which redis to connect to.
+Each command can take the heroku `--app APPNAME` parameter, and a `--db REDIS_URL` parameter (which defaults to `REDISCLOUD_URL`) for selecting which redis to connect to.
 
 For `heroku redis:cli`, you can run it in interactive mode:
 
